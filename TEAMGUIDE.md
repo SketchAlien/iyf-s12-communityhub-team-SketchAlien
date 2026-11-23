@@ -1,6 +1,6 @@
 # TEAM GUIDE - How We Will Work Together
 
-This guide explains ehow we will work together in harmony step by step, and also explains some terms.
+This guide explains how we will work together in harmony step by step, and also explains some terms.
 
 ## 1. What are Issues? And why did Benny create them?
 
@@ -10,11 +10,11 @@ Issue is one piece of work. I have created 12 Issues, one for each slice. The pu
 
 - Benny - Project setup / layout / nav
 - Phillken - Responsive design
-- Hannah - Authentication4 
-- Beatrice - Comments UI5 
-- Eunice - Profile API + User model6 
-- Grace - Listings UI (Posts UI)7 
-- Rahab - Register / Login UI8 
+- Hannah - Authentication
+- Beatrice - Comments UI
+- Eunice - Profile API + User model
+- Grace - Listings UI (Posts UI)
+- Rahab - Register / Login UI
 - Collins - Database / env / deployment
 - Wycliffe - Listings API (Posts API)
 - Zubeda - Comments API
@@ -27,30 +27,28 @@ Issue is one piece of work. I have created 12 Issues, one for each slice. The pu
 - If everyone pushes to main, we will get conflicts and break the app.
 - Each person works on their own branch, then asks their Reviewer to approve.
 - Branch names - use this format:
-  a) slice-1-benny-setupslice
-  b) slice-2-phillken-responsiveslice
-  c) slice-3-hannah-authslice
-  d) slice-4-beatrice-comments-uislice
-  e) slice-5-eunice-profile-apislice
-  f) slice-6-grace-listings-uislice
-  g) slice-7-rahab-auth-uislice
-  h) slice-8-collins-db-deployslice
-  i) slice-9-wycliffe-listings-apislice
-  j) slice-10-zubeda-comments-apislice
-  k) slice-11-ivy-profile-uislice
-  l) slice-12-benny-tests-docs
+  - slice-1-benny-setup
+  - slice-2-phillken-responsive
+  - slice-3-hannah-auth
+  - slice-4-beatrice-comments-ui
+  - slice-5-eunice-profile-api
+  - slice-6-grace-listings-ui
+  - slice-7-rahab-auth-ui
+  - slice-8-collins-db-deploy
+  - slice-9-wycliffe-listings-api
+  - slice-10-zubeda-comments-apis
+  - slice-11-ivy-profile-ui
+  - slice-12-benny-tests-docs
 
 ## 3. How to Create a Branch and Push - Step by Step
 
 - Do this in VS Code terminal or Git Bash:
 
 ## Step 1: Get latest code
-- checkout main
+- git checkout main
 - git pull origin main
 
 ## Step 2: Create your branch
-- git checkout main
-- git pull origin main
 - git checkout -b (your branch name e.g. slice-6-grace-listings-ui)
 
 ## Step 3: 
@@ -89,6 +87,7 @@ Here's how to do it:
 - If your PR was merged but Issue is still open, tell the Team Lead.If you did work but did NOT use a PR, your Issue stays open. That is wrong.Issue is closed = Work is in main and approved.
 
 ## 7. Reviewer - What to do if PR is Good or Bad?
+
 **If PR is GOOD:**
 - Reviewer goes to PR > Files changed > Review > Approve 
 -Reviewer leaves comment: Approved
@@ -104,7 +103,7 @@ Here's how to do it:
 ## 8. Owner - How to Correct and PR Again
 - If your PR got 'Request changes,' do not create a new PR. Stay on the same branch
 - Stay on YOUR SAME branch, don't create a new one:
-- checkout e.g. slice-6-grace-listings-ui
+- git checkout (your branch e.g. slice-6-grace-listings-ui)
 - Fix the problems the reviewer said
 - Push again to the SAME branch:
   - git add .
@@ -130,7 +129,8 @@ Here's how to do it:
 
 ##10. Updating CONTRIBUTORS.md
 - We have a file called CONTRIBUTORS.md. This is our record of who did what. It helps the instructor or anyone else see our work.
-- After your PR is merged, YOU must update it. 
+- After your PR is merged, YOU must update it, for example, like this: 
+  - Grace | Slice 6: Listings UI | #6 | #15 |
 
 ##The Project Structure
 
@@ -166,8 +166,6 @@ RentSmart/
 ├── CONTRIBUTORS.md
 └── README.md
 
-***Remember:*** You only touch YOUR file. Don't create new folders. Don't create new files outside your file.
-
 ###Who builds what:
 
 As a recap, the
@@ -185,3 +183,5 @@ As a recap, the
 - Eunice: routes/profile.js
 - Wycliffe: routes/listings.js
 - Zubeda: routes/comments.js
+
+***Note*** When the frontend and backend are merged, you can start pushig. You'll be informed when they're merged. In the meantime, plan how you'll build your issue, and can work on it locally till the front and backend are merged. 
