@@ -1,0 +1,3 @@
+# CommunityHub Team Project - RentSmart
+
+RentSmart is a community platform built by Datavyb team aiming to fill the gap and stress that accompanies hunting apartments and houses. Rather than searching for vacant apartments and houses physically, through adverts and agents, or asking people, RentSmart ofers an easy-to-use platform whereby people can search for houses with ease. Search for an area, see houses being displayed, their descriptions and price, and get in touch. We make it easy for you to find a house you like, at a particular location, is verifiable and affordable. No more hustle searching. 
