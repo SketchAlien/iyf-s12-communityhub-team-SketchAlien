@@ -184,4 +184,12 @@ As a recap, the
 - Wycliffe: routes/listings.js
 - Zubeda: routes/comments.js
 
-***Note*** When the frontend and backend are merged, you can start pushig. You'll be informed when they're merged. In the meantime, plan how you'll build your issue, and can work on it locally till the front and backend are merged. 
+## merged Frontend and Backend
+The `frontend` and `backend` folders are now merged into `main`. You can officially start working on your Issues! 
+
+***Remember:***
+1. Pull the latest `main` first.
+2. Create your branch.
+3. Write your code.
+4. Push and open a PR.
+5. Tag your Reviewer!
