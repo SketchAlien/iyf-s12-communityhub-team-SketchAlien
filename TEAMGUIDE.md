@@ -136,7 +136,7 @@ Here's how to do it:
 
 This is how the project structure looks like:
 
-RentSmart/
+CommunityHub/
 ├── frontend/
 │   ├── index.html
 │   ├── package.json
