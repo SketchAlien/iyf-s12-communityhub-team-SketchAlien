@@ -1,5 +1,5 @@
 
-function components() {
-  return <h2>Register Page - Coming Soon</h2>
+function Components() {
+  return <h2>Comments Page</h2>
 }
-export default Comments
+export default Comments;
