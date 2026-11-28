@@ -1,5 +1,5 @@
 
 function Listings() {
-  return <h2>Register Page - Coming Soon</h2>
+  return <h2>Listing pages</h2>
 }
 export default Listings
