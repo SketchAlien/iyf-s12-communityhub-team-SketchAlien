@@ -1,5 +1,8 @@
-
 function Register() {
-  return <h2>Register Page - Coming Soon</h2>
+    return (
+        <div>
+            <h2>Register</h2>
+        </div>
+    );
 }
-export default Register
+export default Register;
