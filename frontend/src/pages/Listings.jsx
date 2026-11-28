@@ -1,5 +1,10 @@
-
 function Listings() {
-  return <h2>Listing pages</h2>
+    return (
+        <div>
+            <h2>Listings Page - Coming Soon</h2>
+            <p>This is where Grace will build the listings feed.</p>
+        </div>
+    );
 }
-export default Listings
+
+export default Listings;
