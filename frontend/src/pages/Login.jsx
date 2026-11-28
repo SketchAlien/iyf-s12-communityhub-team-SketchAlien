@@ -1,5 +1,9 @@
-
 function Login() {
-  return <h2>Register Page - Coming Soon</h2>
+    return (
+        <div>
+            <h2>Login Page - Coming Soon</h2>
+        </div>
+    );
 }
-export default Login
+
+export default Login;
