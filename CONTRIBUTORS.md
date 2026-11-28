@@ -4,6 +4,10 @@
 - **GitHub:** @SketchAlien
 - **Features Owned:** Slice 1 (Setup), Slice 12 (Tests)
 
+**Pull Requests**
+- [https://github.com/SketchAlien/iyf-s12-communityhub-team-SketchAlien/pull/13](Team Guide PR)
+- [https://github.com/SketchAlien/iyf-s12-communityhub-team-SketchAlien/pull/14](Setup PR)
+
 ## Philken
 - **GitHub:** @oluochfilken
 - **Features Owned:** Slice 2 (Responsive UI)
